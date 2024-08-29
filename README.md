@@ -3,6 +3,11 @@
 # ContainerPostgreSQLCluster
 **(0) Summary:** 
 
-Hi I'm Ben, Daniel's friend and from here I want to share with you Docs and code and videos to create a PostgreSQL Cluster using GitHub CodeSpaces 
+Hi I'm Ben best Daniel's friend and from here I want to share with you Docs and code and videos to create a PostgreSQL Cluster using GitHub CodeSpaces. 
 
-**(1) create Play and Dev Zone with Code Spaces:**
+**(1) Create Play and Dev Zone with Code Spaces:**
+
+CodeSpaces in browser offers you a Ubuntu platform at the beginning, based on that you need first as a real linux user update your repositories:
+* sudo apt-get update
+Then install docker package:
+* sudo apt-get install docker.io
