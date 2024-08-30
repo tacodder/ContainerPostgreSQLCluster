@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  db1:
+    image: postgres
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: pass
+      POSTGRES_DB: db1
+    ports:
+      - "5432:5432"
+    networks:
+      - pg_network
+
+  db2:
+    image: postgres
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: pass
+      POSTGRES_DB: db2
+    ports:
+      - "5433:5432"
+    networks:
+      - pg_network
+
+networks:
+  pg_network:
+    driver: bridge
