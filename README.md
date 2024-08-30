@@ -15,10 +15,5 @@ Then install docker package:
 **(2) Create Docker File and yml config:**
 
 Docker File:
-# Use the official PostgreSQL image from the Docker Hub
-FROM postgres:latest
+![image](https://github.com/user-attachments/assets/1901e342-2b1b-4a8a-b694-6dc3c0eb8282)
 
-# Set environment variables for the PostgreSQL database
-ENV POSTGRES_USER=user
-ENV POSTGRES_PASSWORD=pass
-ENV POSTGRES_DB=db_name
