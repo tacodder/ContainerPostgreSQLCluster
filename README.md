@@ -13,3 +13,12 @@ Then install docker package:
 * sudo apt-get install docker.io
 
 **(2) Create Docker File and yml config:**
+
+Docker File:
+# Use the official PostgreSQL image from the Docker Hub
+FROM postgres:latest
+
+# Set environment variables for the PostgreSQL database
+ENV POSTGRES_USER=user
+ENV POSTGRES_PASSWORD=pass
+ENV POSTGRES_DB=db_name
