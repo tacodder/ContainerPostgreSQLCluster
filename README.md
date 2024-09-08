@@ -9,7 +9,7 @@ Hi I'm Ben best Daniel's friend and from here I want to share with you Docs and 
 
 CodeSpaces in browser offers you a Ubuntu platform at the beginning, based on that you need first as a real linux user update your repositories:
 * sudo apt-get update
-Then install docker package:
+Then install docker package then:
 * sudo apt-get install docker.io
 
 **(2) Create Docker File and yml config:**
