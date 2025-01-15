@@ -12,7 +12,7 @@ CodeSpaces in browser offers you a Ubuntu platform at the beginning, based on th
 Then install docker package then:
 * sudo apt-get install docker.io
 
-**(2) Create Docker File and yml config:**
+**(2) Create Docker File and yaml/yml config:**
 
 Docker File:
 
